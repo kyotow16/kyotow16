@@ -1,0 +1,328 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static final String RESET = "\033[0m";
+    public static final String PURPLE = "\033[0;35m";
+    public static final String RED = "\033[0;31m";
+    public static final String GREEN = "\033[0;32m";
+    public static final String YELLOW = "\033[0;33m";
+
+
+    public static void main(String[] args) {
+
+        Scanner ybr = new Scanner(System.in);
+        Scanner ybr2 = new Scanner(System.in);
+        Scanner ybr3 = new Scanner(System.in);
+        Scanner ybr4 = new Scanner(System.in);
+        Scanner ybr5 = new Scanner(System.in);
+
+        boolean continuar = true;
+
+        String False1 = "Rebanho";
+        String False2 = "Alcateia";
+        String False3 = "Manada";
+        String True1 = "Matilha";
+
+        String False4 = "Equilátero";
+        String False5 = "Isóceles";
+        String False6 = "Trapézio";
+        String True2 = "Escaleno";
+
+        String False7 = "Manuel Bandeira";
+        String False8 = "Castro Alvez";
+        String False9 = "Carlos Gomes";
+        String True3 = "Dom Pedro I";
+
+        String False10 = "Rei";
+        String False11 = "Nove";
+        String False12 = "Ás";
+        String True4 = "Valete";
+
+        String False13 = "Jabuti";
+        String False14 = "Onça";
+        String False15 = "Tucano";
+        String True5 = "Arara";
+
+        while (continuar) {
+
+            System.out.print(YELLOW + "Olá jogador, seja muito bem vindo ao Show do milhão! Aqui acontecerá uma série de cinco perguntas, conforme os acertos seu crédito sobe, até bater um milhão! Seja esperto e conquiste tanto dinheiro assim. Que os jogos comecem!" + RESET);
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println(PURPLE + "Questão Número 1 - Qual é o coletivo de cães?" + RESET);
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra A, Matilha");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra B, Rebanho");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra C, Alcateia");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra D, Manada");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            String resposta = ybr.next();
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+
+            if ((resposta.equals(False1))) {
+                System.out.println(RED + "Sua resposta está errada, você foi eliminado do Show do Milhão, boa sorte na próxima." + RESET);
+
+                continuar = false;
+
+            }
+            if ((resposta.equals(False2))) {
+                System.out.println(RED + "Sua resposta está errada, você foi eliminado do Show do Milhão, boa sorte na próxima." + RESET);
+
+                continuar = false;
+
+            }
+            if ((resposta.equals(False3))) {
+                System.out.println(RED + "Sua resposta está errada, você foi eliminado do Show do Milhão, boa sorte na próxima." + RESET);
+
+                continuar = false;
+
+
+            } else if
+            (resposta.equals(True1)) {
+                System.out.println(GREEN + "Sua resposta está correta, vamos avançar para a próxima etapa!" + RESET);
+
+                continuar = true;
+
+            }
+
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println(PURPLE + "Questão Número 2 - Qual é o triângulo que tem todos os lados diferentes?" + RESET);
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra A, Equilátero");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra B, Isóceles");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra C, Escaleno");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra D, Trapézio");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            String resposta2 = ybr2.next();
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            if ((resposta2.equals(False4))) {
+                System.out.println(RED + "Sua resposta está errada, você foi eliminado do Show do Milhão, boa sorte na próxima." + RESET);
+
+                continuar = false;
+
+            }
+
+            if ((resposta2.equals(False5))) {
+                System.out.println(RED + "Sua resposta está errada, você foi eliminado do Show do Milhão, boa sorte na próxima." + RESET);
+
+                continuar = false;
+
+            }
+            if ((resposta2.equals(False6))) {
+                System.out.println(RED + "Sua resposta está errada, você foi eliminado do Show do Milhão, boa sorte na próxima." + RESET);
+
+                continuar = false;
+
+
+            } else if
+            (resposta2.equals(True2)) {
+                System.out.println(GREEN + "Nada mal, resposta correta! Vamos para a próxima etapa." + RESET);
+
+                continuar = true;
+
+            }
+
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println(PURPLE + "Questão Número 3 - Quem compôs o Hino da Independência?" + RESET);
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra A, Dom Pedro I ");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra B, Manuel Bandeira");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra C, Castro Alvez");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra D, Carlos Gomes");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            String resposta3 = ybr3.next();
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            if ((resposta3.equals(False7))) {
+                System.out.println(RED + "Passou perto, é uma pena." + RESET);
+
+                continuar = false;
+
+            }
+            if ((resposta3.equals(False8))) {
+                System.out.println(RED + "Passou perto, é uma pena." + RESET);
+
+                continuar = false;
+
+            }
+            if ((resposta3.equals(False9))) {
+                System.out.println(RED + "Passou perto, é uma pena." + RESET);
+
+                continuar = false;
+
+            } else if
+            (resposta3.equals(True3)) {
+                System.out.println(GREEN + "Resposta.. Correta! Você está a dois passos da vitória!" + RESET);
+
+                continuar = true;
+            }
+
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println(PURPLE + "Questão Número 4 - Seguindo a sequência do baralho, qual carta vem depois do dez?" + RESET);
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra A, Rei");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra B, Valete");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra C, Nove");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra D, Ás");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            String resposta4 = ybr4.next();
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            if ((resposta4.equals(False10))) {
+                System.out.println(RED + "Sua resposta está errada, você foi eliminado do Show do Milhão, até que foi longe!" + RESET);
+
+                continuar = false;
+
+            }
+            if ((resposta4.equals(False11))) {
+                System.out.println(RED + "Sua resposta está errada, você foi eliminado do Show do Milhão, até que foi longe!" + RESET);
+
+                continuar = false;
+
+            }
+            if ((resposta4.equals(False12))) {
+                System.out.println(RED + "Sua resposta está errada, você foi eliminado do Show do Milhão, até que foi longe!" + RESET);
+
+                continuar = false;
+
+            } else if
+            (resposta4.equals(True4)) {
+                System.out.println(GREEN + "Caramba, quanta inteligência. Vamos avançar para a última pergunta!" + RESET);
+
+                continuar = true;
+
+            }
+
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println(PURPLE + "Questão Número 5 - Que animal da fauna Brasileira está retratado na nota de dez reais?" + RESET);
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra A, Jabuti");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra B, Onça");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra C, Arara");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            System.out.println("Letra D, Tucano");
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            String resposta5 = ybr5.next();
+            System.out.println("");
+            System.out.println("──────⊹⊱・・・⊰⊹────── ");
+            System.out.println("");
+            if ((resposta5.equals(False13))) {
+                System.out.println(RED + "Sua resposta está errada, você foi eliminado do Show do Milhão na última pergunta! Que dó, na próxima dá certo." + RESET);
+
+                continuar = false;
+            }
+            if ((resposta5.equals(False14))) {
+                System.out.println(RED + "Sua resposta está errada, você foi eliminado do Show do Milhão na última pergunta! Que dó, na próxima dá certo." + RESET);
+
+                continuar = false;
+            }
+            if ((resposta5.equals(False15))) {
+                System.out.println(RED + "Sua resposta está errada, você foi eliminado do Show do Milhão na última pergunta! Que dó, na próxima dá certo." + RESET);
+
+                continuar = false;
+
+            } else if
+            (resposta5.equals(True5)) {
+                System.out.println(YELLOW + "A última chance de ganhar um milhão está... VÁLIDAAAAA! PARABÉNS PELOS UM MILHÃO!.. Só temos que dizer uma coisa, eram pesos venezuelanos. Você não ganhou um milhão de reais.");
+
+
+                System.out.println("⢀⣤⠖⠒⠒⠒⢒⡒⠒⠒⠒⠒⠒⠲⠦⠤⢤⣤⣄⣀⠀⠀⠀⠀⠀");
+                System.out.println("⠀⠀⠀⠀⣠⠟⠀⢀⠠⣐⢭⡐⠂⠬⠭⡁⠐⠒⠀⠀⣀⣒⣒⠐⠈⠙⢦⣄⠀⠀");
+                System.out.println("⠀⠀⠀⣰⠏⠀⠐⠡⠪⠂⣁⣀⣀⣀⡀⠰⠀⠀⠀⢨⠂⠀⠀⠈⢢⠀⠀⢹⠀⠀");
+                System.out.println("⠀⣠⣾⠿⠤⣤⡀⠤⡢⡾⠿⠿⠿⣬⣉⣷⠀⠀⢀⣨⣶⣾⡿⠿⠆⠤⠤⠌⡳⣄");
+                System.out.println("⣰⢫⢁⡾⠋⢹⡙⠓⠦⠤⠴⠛⠀⠀⠈⠁⠀⠀⠀⢹⡀⠀⢠⣄⣤⢶⠲⠍⡎⣾");
+                System.out.println("⢿⠸⠸⡇⠶⢿⡙⠳⢦⣄⣀⠐⠒⠚⣞⢛⣀⡀⠀⠀⢹⣶⢄⡀⠀⣸⡄⠠⣃⣿");
+                System.out.println("⠈⢷⣕⠋⠀⠘⢿⡶⣤⣧⡉⠙⠓⣶⠿⣬⣀⣀⣐⡶⠋⣀⣀⣬⢾⢻⣿⠀⣼⠃");
+                System.out.println("⠀⠀⠙⣦⠀⠀⠈⠳⣄⡟⠛⠿⣶⣯⣤⣀⣀⣏⣉⣙⣏⣉⣸⣧⣼⣾⣿⠀⡇⠀");
+                System.out.println("⠀⠀⠀⠘⢧⡀⠀⠀⠈⠳⣄⡀⣸⠃⠉⠙⢻⠻⠿⢿⡿⢿⡿⢿⢿⣿⡟⠀⣧⠀");
+                System.out.println("⠀⠀⠀⠀⠀⠙⢦⣐⠤⣒⠄⣉⠓⠶⠤⣤⣼⣀⣀⣼⣀⣼⣥⠿⠾⠛⠁⠀⢿⠀");
+                System.out.println("⠀⠀⠀⠀⠀⠀⠀⠈⠙⠦⣭⣐⠉⠴⢂⡤⠀⠐⠀⠒⠒⢀⡀⠀⠄⠁⡠⠀⢸⠀");
+                System.out.println("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠲⢤⣀⣀⠉⠁⠀⠀⠀⠒⠒⠒⠉⠀⢀⡾⠀");
+                System.out.println("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠛⠲⠦⠤⠤⠤⠤⠴⠞⠋⠀⠀");
+
+            }
+
+
+        }
+    }
+
+}
