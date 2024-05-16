@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static final String RESET = "\033[0m";
+    public static final String RED = "\033[0;31m";
+    public static final String YELLOW = "\033[33m";
+    public static final String ORANGE = "\033[36m";
+
+    public static void main(String[] args) {
+
+        Scanner ybralgarismo = new Scanner (System.in);
+        
+System.out.print(RED + "Seja bem vindo! Sou a programação experimental de Augusto, aqui farei a função que me foi programada." + RESET);
+        
+System.out.println(" ");
+
+System.out.println("──────⊹⊱・・・⊰⊹──────");
+        
+System.out.println(YELLOW + "Digite dois números de 0 a 10, decimais ou inteiros, para então obter o resultado da soma dos algarismos!" + RESET);
+        
+System.out.println("──────⊹⊱・・・⊰⊹──────");
+        
+        double resposta1 = ybralgarismo.nextDouble();  
+        double resposta2 = ybralgarismo.nextDouble();  
+        
+        double ybrvariado = resposta1 + resposta2;
+    
+System.out.print(ORANGE + "O resultado da soma dos dois algarismos é:" + ybrvariado + RESET);
+
+    }   
+}
