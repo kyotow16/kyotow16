@@ -1,0 +1,59 @@
+ import java.util.Scanner;
+
+ public class Main {
+
+    public static final String RESET = "\033[0m";
+    public static final String BLACK = "\033[0;30m";
+    public static final String RED = "\033[0;31m";
+    public static final String GREEN = "\033[0;32m";
+    public static final String YELLOW = "\033[0;33m";
+    public static final String BLUE = "\033[0;34m";
+    public static final String PURPLE = "\033[0;35m";
+    public static final String CYAN = "\033[0;36m";
+    public static final String WHITE = "\033[0;37m";
+
+    public static void main(String[] args) {
+
+        Scanner ybr = new Scanner (System.in);
+
+        System.out.print( YELLOW + "Seja Bem vindo ao Quiz de Augusto, este quiz é composto por uma conta de matemática. Desafie seu cérebro e acerte a pergunta para uma recompensa." + RESET);
+        System.out.println("");
+        System.out.println ("──────⊹⊱・・・⊰⊹────── ");
+        System.out.println( PURPLE + "Se Banana + Banana resulta em Maçã e Maçã significa 7, qual algarismo é Banana?" + RESET);
+        System.out.println("");
+        System.out.println ("──────⊹⊱・・・⊰⊹────── ");
+        System.out.println("");
+        System.out.println( BLUE + "4.5" + RESET);
+        System.out.println("");
+        System.out.println ("──────⊹⊱・・・⊰⊹────── ");
+        System.out.println( BLUE +"4" + RESET);
+        System.out.println("");
+        System.out.println ("──────⊹⊱・・・⊰⊹────── ");
+        System.out.println( BLUE +"3.5" + RESET);
+        System.out.println("");
+        System.out.println ("──────⊹⊱・・・⊰⊹────── ");
+        System.out.println( BLUE + "3" + RESET);
+        System.out.println("");
+        System.out.println ("──────⊹⊱・・・⊰⊹────── ");
+        double resposta = ybr.nextDouble();
+        System.out.println("");
+        System.out.println ("──────⊹⊱・・・⊰⊹────── ");
+
+        if((resposta== 4.5)) {
+        System.out.println( RED + "Você errou, faltou a escola? Coisa básica isso!" + RESET);
+    }
+      else   if((resposta== 4)) {
+        System.out.println( RED + "Você errou, faltou a escola? Coisa básica isso!" + RESET);
+    }
+      else  if((resposta== 3)) {
+        System.out.println( RED + "Você errou, faltou a escola? Coisa básica isso!" + RESET);
+
+    } else if ((resposta== 3.5)) {
+        System.out.println( GREEN + "Você acertou, parabéns! Era o mínimo né.." + RESET);
+
+  }   
+  System.out.println("");
+  System.out.println ("──────⊹⊱・・・⊰⊹────── ");
+
+ }
+}
